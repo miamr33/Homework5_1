@@ -1,0 +1,62 @@
+@font-face {
+font-family: 'Helvetica Neue';
+src: url('fonts/helveticaneue-thin-webfont.eot');
+src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+     url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+     url('fonts/helveticaneue-thin-webfont.woff') format('woff'),
+     url('fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+* {
+    font-family: 'Helvetica Neue';
+}
+body {
+    height: 1064px;
+    width: 1215px;
+}
+.header_menu {
+    background-color: #074e8c;
+    width: 886px;
+    height: 36px;
+    float: left;
+    border-right: 1px solid #4aa6d8;
+}
+li {
+    float: right;
+}
+a {
+    display: inline-block;
+    padding: 11px;
+    text-decoration: none;
+    color: #4aa6d8;
+    font-size: 14px;
+}
+a:hover {
+    color:white;
+    background-color: #4aa6d8;
+}
+.ola {
+    float: right;
+    background-color: #074e8c;
+    height: 36px;
+    width: 328px;
+}
+.ola li {
+    font-size: 14px;
+    padding: 11px;
+    color: white;
+}
+.ola li:first-child {
+    background-color: #4aa6d8;
+}
+img {
+    height: 22px;
+    width: 18px;
+    margin: 7px 3px;
+}
+.fon {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    height: 1028px;
+}
