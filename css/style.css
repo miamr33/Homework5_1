@@ -23,33 +23,37 @@ header {
     border-right: 1px solid #4aa6d8;
     height: 36px;
 }
-li {
+header ul {
     float: right;
 }
-li:first-child, li:nth-child(2) {
+header li {
+    display: inline-block;
+    margin-top: -15px;
+}
+header li:last-child, header li:nth-child(7) {
     padding: 11px;
     margin: 0 12px;
     color: white;
 }
-li:first-child {
+header li:last-child {
     background: linear-gradient(to top, #2e7ac4, #50afdc);
 }
-.border {
+header li:nth-child(5) {
     border-right: 1px solid #4aa6d8;
 }
-img {
+header img {
     display: inline-block;
-    margin: 8px 0 8px 10px;
+    margin: 0 0 -5px 10px;
     height: 22px;
     width: 18px;
 }
-a {
+header a {
     display: inline-block;
     padding: 11px;
     text-decoration: none;
     color: #4aa6d8;
 }
-a:hover {
+header a:hover {
     color: white;
     background-color: #4aa6d8;
 }
@@ -71,13 +75,13 @@ header span {
     width: 520px;
     background: rgba(0, 0, 0, 0.5);
 }
-h2 {
+.facebook h2 {
     color: white;
     text-align: center;
     padding: 20px 0;
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
-div form {
+ form {
 	text-align: center;
 }
 .facebook input {
@@ -85,49 +89,49 @@ div form {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-h3 {
+.facebook h3 {
     text-align: center;
     color: #999999;
     background-image: url(../img/border_bottom.png);
     background-position: center center;
     background-repeat: no-repeat;
 }
-div input {
+.sign_in input {
     margin: 8px 0;
     width: 276px;
     height: 30px;
     border: none;
 }
-div input[type=text], div input[type=email], div input[type=password] {
+.sign_in input[type=text], .sign_in input[type=email], .sign_in input[type=password] {
     background: #0f0f0f;
     border-bottom: 1px solid #4a4a48;
 }
-div input[type=checkbox] {
+.sign_in input[type=checkbox] {
 	width: 13px;
 	height: 13px;
 }
-div input[type=text]:focus, div input[type=email]:focus, div input[type=password]:focus {
+.sign_in input[type=text]:focus, .sign_in input[type=email]:focus, .sign_in input[type=password]:focus {
 	background: #074b87;
 	box-shadow: 0px 0px 20px 5px rgba(115,154,193,1);
 }
-input[placeholder] {
+.sign_in input[placeholder] {
     padding-left: 10px;
 }
 .create_account input[type=submit] {
     width: 140px;
     background: linear-gradient(to top, #2e7ac4, #50afdc);
 }
-input[placeholder], .create_account input[type=submit] {
+.sign_in input[placeholder], .create_account input[type=submit] {
      font-size: 14px;
      font-family: 'Helvetica Neue', sans-serif;
 }
-p {
+.sign_in p {
     display: inline-block;;
     width: 306px;
     text-align: center;
     font-size: 12px;
     padding-bottom: 5px;
 }
-p, label, .create_account input[type=submit], input[placeholder] {
+.sign_in p, .sign_in label, .create_account input[type=submit], .sign_in input[placeholder] {
     color: white;
 }
